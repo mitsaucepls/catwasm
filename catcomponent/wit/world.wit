@@ -1,0 +1,8 @@
+package wasmcloud:hatelife;
+
+world hatelife {
+  import wasi:logging/logging;
+  import wasmcloud:messaging/consumer@0.2.0;
+
+  export wasmcloud:messaging/handler@0.2.0;
+}

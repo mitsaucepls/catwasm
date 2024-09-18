@@ -1,0 +1,8 @@
+name = "catconsumer"
+language = "rust"
+type = "component"
+
+[component]
+wit_world = "meowlife"
+wasm_target = "wasm32-wasi-preview2"
+

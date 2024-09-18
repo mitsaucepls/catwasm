@@ -1,0 +1,7 @@
+name = "catcomponent"
+language = "rust"
+type = "component"
+
+[component]
+wit_world = "hatelife"
+wasm_target = "wasm32-wasi-preview2"
